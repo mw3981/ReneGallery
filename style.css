@@ -84,7 +84,7 @@ h1, h2 {
 }
 
 
-@media only screen and (min-width: 375px) {
+@media screen and (max-width: 1024px) {
   body {
     background-repeat: no-repeat;
   }
@@ -118,7 +118,7 @@ h1, h2 {
   }
 
   .abouttext {
-    font-size: 45px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     margin: -290px;
@@ -141,7 +141,7 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     padding-left: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 
   }
   .thelovers img {
@@ -156,3 +156,4 @@ h1, h2 {
     align-items: center;
     margin: -150px;
   }
+}
