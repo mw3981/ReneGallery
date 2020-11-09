@@ -134,6 +134,7 @@ h1, h2 {
   .quote {
     font-size: 50px;
     padding-left: 350px;
+    margin-right: -300px;
     display: flex;
     flex-direction: row;
     margin-bottom: 450px;
