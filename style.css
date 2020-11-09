@@ -1,0 +1,159 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family:  "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+  background-image: url(stars.gif);
+  background-attachment: fixed;
+}
+
+
+h1, h2, p {
+  color: #fffafe;
+}
+
+.heading {
+  display: flex;
+  font-size: 16vmin;
+  text-align: center;
+  margin-bottom: 14vmin;
+  font-weight: bold;
+  padding: 14vmin;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
+}
+
+.quote {
+  font-size: 3vmin;
+  padding: 7vmin;
+  margin-top: 25vmin;
+  margin-bottom: 30vmin;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  padding: 6vmin;
+  padding-left: 13vmin;
+}
+
+.aboutimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4vmin;
+}
+
+.abouttext {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10vmin;
+  font-size: 2.5vmin;
+  padding-left: 20vmin;
+  padding-right: 20vmin;
+}
+
+
+.thelovers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 17vmin;
+  margin-bottom: 25vmin;
+}
+
+.theloverstext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  font-size: 2.75vmin;
+}
+
+
+
+h1, h2 {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 3px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
+}
+
+
+@media only screen and (min-width: 375px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .heading {
+    font-size: 120px;
+    padding-left: 360px;
+    padding-bottom: 570px;
+    padding-top: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    width: 600px;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    padding-left: 320px;
+    margin-bottom: 650px;
+  }
+
+  .aboutimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 250px;
+  }
+
+  .abouttext {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    margin: -290px;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .quote {
+    font-size: 50px;
+    padding-left: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 450px;
+  }
+
+  .thelovers {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-bottom: 300px;
+
+  }
+  .thelovers img {
+    width: 900px;
+    height: 600px;
+    padding-bottom: 250px;
+  }
+
+  .theloverstext {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin: -150px;
+  }
