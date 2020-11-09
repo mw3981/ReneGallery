@@ -95,6 +95,7 @@ h1, h2 {
     font-size: 120px;
     padding-left: 360px;
     padding-bottom: 570px;
+    margin-right: -110px;
     padding-top: 600px;
     text-align: center;
     display: flex;
