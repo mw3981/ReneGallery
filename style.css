@@ -93,7 +93,7 @@ h1, h2 {
 
   .heading {
     font-size: 120px;
-    padding-left: 360px;
+    padding-left: 300px;
     padding-bottom: 570px;
     margin-right: -110px;
     padding-top: 600px;
@@ -103,7 +103,7 @@ h1, h2 {
   }
 
   img {
-    width: 600px;
+    width: 400px;
   }
 
   .first {
@@ -121,7 +121,7 @@ h1, h2 {
   }
 
   .abouttext {
-    font-size: 40px;
+    font-size: 1.5em;
     display: flex;
     align-items: center;
     margin: -290px;
@@ -133,8 +133,8 @@ h1, h2 {
   }
 
   .quote {
-    font-size: 50px;
-    padding-left: 350px;
+    font-size: 1.5em;
+    padding-left: 300px;
     margin-right: -300px;
     display: flex;
     flex-direction: row;
@@ -155,7 +155,7 @@ h1, h2 {
   }
 
   .theloverstext {
-    font-size: 40px;
+    font-size: 1.5em;
     display: flex;
     align-items: center;
     margin: -150px;
