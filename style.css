@@ -145,19 +145,20 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     padding-left: 100px;
-    margin-bottom: 50vmin;
+    margin-bottom: 40vmin;
 
   }
   .thelovers img {
     width: 600px;
     height: 400px;
-    padding-bottom: 20vmin;
   }
 
   .theloverstext {
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    margin: -10vmin;
+    margin-left: -10vmin;
+    margin-right: -10vmin;
+    padding: 4vmin;
   }
 }
