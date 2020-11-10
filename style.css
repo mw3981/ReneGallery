@@ -93,10 +93,10 @@ h1, h2 {
 
   .heading {
     font-size: 120px;
-    padding-left: 300px;
-    padding-bottom: 570px;
-    margin-right: -110px;
-    padding-top: 600px;
+    padding-left: 20vmin;
+    padding-bottom: 45vmin;
+    margin-right: -30vmin;
+    padding-top: 40vmin;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -109,22 +109,22 @@ h1, h2 {
   .first {
     display: flex;
     flex-direction: column;
-    padding-left: 320px;
-    margin-bottom: 650px;
+    padding-left: 35vmin;
+    margin-bottom: 50vmin;
   }
 
   .aboutimg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 250px;
+    padding-bottom: 25vmin;
   }
 
   .abouttext {
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    margin: -290px;
+    margin: -30vmin;
   }
 
   h1 {
@@ -134,30 +134,30 @@ h1, h2 {
 
   .quote {
     font-size: 1.5em;
-    padding-left: 250px;
-    margin-right: -300px;
+    padding-left: 40vmin;
+    margin-right: -30vmin;
     display: flex;
     flex-direction: row;
-    margin-bottom: 450px;
+    margin-bottom: 50vmin;
   }
 
   .thelovers {
     display: flex;
     flex-direction: column;
     padding-left: 100px;
-    margin-bottom: 400px;
+    margin-bottom: 50vmin;
 
   }
   .thelovers img {
     width: 600px;
     height: 400px;
-    padding-bottom: 250px;
+    padding-bottom: 20vmin;
   }
 
   .theloverstext {
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    margin: -150px;
+    margin: -10vmin;
   }
 }
