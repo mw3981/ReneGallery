@@ -78,6 +78,112 @@ h1, h2, p {
   font-size: 2.75vmin;
 }
 
+.blackmagic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 25vmin;
+}
+
+.blackmagictext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+.artofliving {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 25vmin;
+}
+
+.artoflivingtext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+.sonofman {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 7vmin;
+}
+
+.sonoftext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+.invention {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16vmin;
+  margin-bottom: 20vmin;
+}
+
+.inventiontext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  margin: 10vmin;
+  margin-top: 30vmin;
+  margin-right: 17vmin;
+  font-size: 2.75vmin;
+}
+
+.elective {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 7vmin;
+}
+
+.electivetext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+.quote2 {
+  font-size: 3vmin;
+  padding: 7vmin;
+  margin-top: 30vmin;
+  margin-bottom: 15vmin;
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
+}
 
 
 h1, h2 {
@@ -107,16 +213,13 @@ h1, h2 {
     padding-bottom: 10vmin;
   }
 
-  .aboutimg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1vmin;
-    margin-left: -6vmin;
-  }
+  .aboutimg img{
+    max-width: 80%;
+    max-height: 80%;
+}
 
   .abouttext {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: -17vmin;
     margin-right: -6vmin;
     display: flex;
@@ -129,7 +232,7 @@ h1, h2 {
   }
 
   .quote {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     display: flex;
     align-content: center;
@@ -144,11 +247,109 @@ h1, h2 {
   }
   .thelovers img {
     margin-left: -20vmin;
+    max-width: 65vw;
+    max-height: 35vh;
   }
 
   .theloverstext {
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: flex;
     align-items: center;
   }
+
+  .blackmagic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blackmagic img {
+    margin-left: -20vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .blackmagictext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: -8vmin;
+  }
+
+  .artofliving {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .artofliving img {
+    margin-left: -25vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .artoflivingtext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: -6vmin;
+  }
+
+  .sonofman {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .sonofman img {
+    margin-left: -25vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .sonoftext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: -10vmin;
+  }
+
+  .invention {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .invention img {
+    margin-left: -20vmin;
+    max-width: 65vw;
+    max-height: 30vh;
+  }
+
+  .inventiontext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5vmin;
+    margin-left: -2vmin;
+  }
+
+  .elective {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .elective img {
+    margin-left: -22vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .electivetext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5vmin;
+    margin-left: -2vmin;
+  }
+
+.quote2 {
+  font-size: 1.2em;
+}
 }
