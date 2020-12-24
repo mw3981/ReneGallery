@@ -704,3 +704,165 @@ h1, h2 {
       margin-left: -2vmin;
     }
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .heading {
+    font-size: 10vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 45vmin;
+    padding-top: 50vmin;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vmin;
+  }
+
+  .aboutimg img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+  .abouttext {
+    font-size: 1.2em;
+    margin-left: -17vmin;
+    margin-right: -6vmin;
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .quote {
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    padding-bottom: 10vmin;
+    padding: 120px;
+  }
+
+  .thelovers {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .thelovers img {
+    margin-left: -20vmin;
+    max-width: 65vw;
+    max-height: 35vh;
+  }
+
+  .theloverstext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+
+  .blackmagic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blackmagic img {
+    margin-left: -20vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .blackmagictext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: -8vmin;
+  }
+
+  .artofliving {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .artofliving img {
+    margin-left: -25vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .artoflivingtext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: -6vmin;
+  }
+
+  .sonofman {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .sonofman img {
+    margin-left: -25vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .sonoftext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: -10vmin;
+  }
+
+  .invention {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .invention img {
+    margin-left: -20vmin;
+    max-width: 65vw;
+    max-height: 30vh;
+  }
+
+  .inventiontext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5vmin;
+    margin-left: -2vmin;
+  }
+
+  .elective {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .elective img {
+    margin-left: -22vmin;
+    max-width: 55vw;
+    max-height: 45vh;
+  }
+
+  .electivetext {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5vmin;
+    margin-left: -2vmin;
+  }
+
+.quote2 {
+  font-size: 1.2em;
+}
+}
